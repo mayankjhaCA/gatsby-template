@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+.accordion__section{
+    display: flex;
+    flex-direction: column;
+}
+.accordion{
+    display: flex;
+    background: #C4C4C4;
+    color: #000;
+    border: none;
+    padding: 1rem 1.3rem;
+    font-size: 1.7rem;
+    border-radius: 0;
+    width: 100%;
+    text-align: left;
+    font-family: var(--monts);
+    margin-top: 0.3rem;
+    -webkit-transition: 0s;
+    -o-transition: 0s;
+    transition: 0s;
+    
+}
+.accordion:hover,.active{
+    background-color: #c4c4c4;
+}
+.accordion__title{
+    font-family: "Roboto",sans-serif;
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+.accordion__icon{
+    margin-left: auto;
+    transition: transform 0.6s ease;
+}
+.rotate{
+    -webkit-transform: rotate(-180deg);
+        -ms-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+}
+.accordion__content{
+    background-color: #f3f3f3;
+    overflow: hidden;
+    transition: max-height 0.6s ease;
+}
+.accordion__text{
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 1.2rem;
+}

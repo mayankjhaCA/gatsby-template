@@ -1,0 +1,87 @@
+.contact_wraper{
+	padding : 3rem 0rem;
+}
+.contact_wraper form label{
+	color: #9c9595;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    padding-bottom: 1rem;
+
+}
+.contact_wraper form label span{
+	color: red;
+}
+.contact_wraper form{
+	padding : 3rem 0rem 1rem;
+}
+.contact_wraper form input,
+.contact_wraper form textarea{
+	width: 100%;
+    height: 4rem;
+    border: .1rem solid #9c9595;
+    margin-bottom: 2rem;
+    padding: 0 1rem;
+    font-size: 1.2rem;
+}
+.contact_wraper form textarea{
+    height: 14rem;
+    padding: 1rem;
+}
+.drop-zone{
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  font-weight: 500;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #cccccc;
+  border: .1rem solid #9c9595;
+}
+
+.drop-zone .add_file{
+	color: var(--blue);
+}
+
+.drop-zone--over {
+  border-style: solid;
+}
+
+.drop-zone__input {
+  display: none;
+}
+
+.drop-zone__thumb {
+  width: 100%;
+  height: 100%;
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+}
+.drop-zone__thumb::after {
+  content: attr(data-label);
+  padding: .5rem 0;
+  color: #000000;
+  font-size: 1.4rem;
+  text-align: center;
+}
+.contact_wraper form button {
+    width: 100%;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    background: var(--blue);
+    color: #fff;
+    border-radius: .5rem;
+    border: none;
+    padding: 1.3rem;
+    margin-top: 2rem;
+}

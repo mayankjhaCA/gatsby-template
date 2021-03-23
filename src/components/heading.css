@@ -1,0 +1,17 @@
+.title{
+	font-size: 3.5rem;
+	margin-left: 0.6rem;
+	line-height: 4.5rem;
+	font-weight: 700;
+}
+.sub_title{
+	font-size: 1.8rem;
+	margin-left: 0.6rem;
+	line-height: 2.4rem;
+	margin-top: 0.7rem;
+}
+@media(max-width:380px){
+	.title_box{
+		max-width:350px;
+	}
+}

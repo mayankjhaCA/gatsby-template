@@ -1,0 +1,98 @@
+h4{
+	font-weight: bold;
+}
+footer{
+	font-family: var(--monts);
+}
+.footer_top{
+	background-color: #C4C4C4;
+	padding: 0.5rem 0 1.9rem;
+}
+.footer_top input{
+	width: 100%;
+	border: none;
+	background-color: #ffffff;
+	color: #000000;
+	font-weight: bold;
+	padding: 0.5rem 1rem;
+}
+.footer_top .button{
+	width: 100%;
+	border-radius: 0;
+	font-size: 1rem;
+	font-weight: bold;
+	padding: 1rem 1rem;
+}
+footer h4{
+	font-size: 1.24rem;
+	line-height: 1.9rem;
+	letter-spacing: -0.0015rem;
+	padding: 0.4rem 0;
+}
+footer ul li a{
+	color: rgba(0, 0, 0, 0.8);
+}
+footer ul li a:hover{
+	color: var(--theme-color);
+}
+.partner_box{
+	height: 2.7rem;
+    background: #FFFFFF;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 1rem;
+}
+.social_icons a{
+	display: inline-block;
+	margin: 0 0.3rem;
+	height: 2.5rem;
+	width: 2.5rem;
+	border: 0.1rem solid var(--theme-color);
+	border-radius: 50%;
+	text-align: center;
+	color: var(--theme-color);
+	line-height: 2.5rem;
+}
+.social_icons a:hover{
+	background-color: var(--theme-color);
+	color: #ffffff;
+}
+.footer_bottom{
+	background-color: #FFACAC;
+	padding: 1.5rem 0;
+}
+.footer_bottom ul li{
+	display: inline-block;
+	padding: 0 0.5rem;
+}
+.footer_bottom ul li a{
+	font-size: 0.8rem;
+}
+.footer_bottom ul li a:hover{
+	color: #ffffff;
+}
+/*return-to-top START CSS*/
+.back-to-top {
+	font-size: 2.4rem;
+	width: 3.5rem;
+	height: 3.5rem;
+	line-height: 3.5rem;
+	text-align: center;
+	display: none;
+	position: fixed;
+	bottom: 30px;
+	right: 20px;
+	border-radius: 50%;
+	background: var(--theme-color);
+	z-index: 1000;
+}
+.back-to-top i {
+	color: #fff;
+}

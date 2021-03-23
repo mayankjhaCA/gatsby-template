@@ -1,0 +1,135 @@
+.slider_image{
+    display: block;
+    width: 100%;
+    height: 46rem;
+}
+.slick-slide{
+   padding: 0 10px;
+}
+.costomize{
+   margin-left: -0.5rem;
+}
+ .costomize .padd_rb{
+	padding: 1rem 0rem;
+   margin-left: -1px;
+}
+.product_container {
+	position: relative;
+	margin-top: 3rem;
+}
+.product_slider{
+   margin-top: 2rem;
+   margin-left: -1rem;
+}
+.review{
+   margin-left: -0.65rem;
+}
+.product_review{
+   font-size: 16px;
+}
+
+@media(max-width:460px){
+   .review{
+      margin-left: -1rem;
+   }
+   .product_wraper .container{
+      margin-left: 0;
+      margin-right: 0;
+   }
+   .product_wraper .container{
+      margin-left: 0;
+      margin-right: 0;
+   }
+   .slick-slide{
+      padding: 0 10px;
+   }
+    .slick-list {
+      margin: 0 -26px;
+   }  
+  
+}
+.top_product{
+   margin-top: 3rem;
+   margin-left: -1.8rem;
+}
+.product_info{
+   margin-left: 0.3rem;
+}
+@media(max-width:992px){
+   .costomize .padd_rb{
+      margin-left: -1px;
+      font-size: 16px;
+      margin-top: -1rem;
+   }
+}
+@media(max-width:768px){
+.costomize{
+      margin-left: -0.8rem;
+   }
+.costomize .padd_rb{
+   margin-left: -1px;
+   font-size: 18px;
+}
+.product_info{
+   margin: 3.5rem 1.8rem 0rem 1.45rem;
+}
+.product_slider{
+   margin-left: -1.545rem;
+}
+}
+@media(max-width:465px){
+   .top_product{
+      padding-left: 0.6rem;
+   }
+   .product_info{
+      margin: 3.5rem 1.8rem 0rem 1rem;
+   }
+   .product_slider{
+      margin-left: 0rem;
+   }
+}
+.costomize{
+   margin-top: 1rem;
+}
+.costomize form{
+	padding: 2rem 0rem;
+}
+.costomize button,
+.costomize .nice-select{
+	height: 3.8rem;
+	width: 100%;
+	background: #E8E8E8;
+    border: 0.1rem solid #000000;
+    border-radius: 0;
+}
+.costomize .nice-select{
+	font-size: 1.2rem;
+	line-height: 3.6rem;
+	float: none;
+}
+.nice-select .list{
+	-webkit-box-shadow: none;
+	        box-shadow: none;
+	border-radius: 0;
+	width: calc(100% + 2px);
+	margin-left: -1px;
+	margin-top: 0;
+	border: 0.1rem solid #000000;
+	background-color: #F3F3F3;
+}
+.nice-select .list .option:first-child{
+	border-top: none;
+}
+.nice-select .list .option{
+	padding: 0.5rem 1rem;
+	text-align: center;
+	border-top: 0.1rem solid #000000;
+	min-height: auto;
+	line-height: 1.2rem;
+}
+.costomize button{
+	font-size: 1.8rem;
+}
+.produt_img2{
+   margin-top: 4.5rem;
+}
